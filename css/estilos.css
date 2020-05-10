@@ -1,0 +1,141 @@
+/* Fonts */
+@import url("https://use.typekit.net/qnh1acm.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*General*/
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version */
+  }
+
+.flex{ display: flex ; }
+.center{ align-items: center; justify-items: center;}
+.left{ justify-items: flex-start; }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Roboto' , sans-serif;
+}
+body{
+    background-color: var(--bg1-color);
+    overflow-x: hidden;
+}
+
+a{
+	text-decoration: none;
+	color: #202020;
+}
+
+li{
+	list-style: none;
+}
+
+img{
+	width: 100%;
+}
+
+.section--banner{
+	background-image: url('../img/banner.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100%;
+}
+
+.nav--menu-principal{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+}
+
+.img--menu-logo{
+	margin-left: 20px;
+	width: 70px;
+}
+
+.ul--menu-principal li{
+	display: inline-block;
+	padding: 30px 20px;
+}
+
+.ul--menu-principal a{
+	color: #fff;
+	font-weight: bold;
+}
+
+.div--banner-filter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+.div--banner-content{
+	width: 100%;
+	justify-content: space-between;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+
+.h1--banner-title{
+	font-size: 5rem;
+	text-align: center;
+	color: #fff;
+	font-family: nocturne-serif, serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.h3--banner-subtitle{
+	color: #aaa;
+	font-size: 1.2rem;
+}
+
+.div--banner-cards{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.div--banner-cards a{
+	width: 20%;
+	margin: 0rem .5rem;
+}
+
+.div--banner-cards a:hover > div {
+	background: #fff;
+	box-shadow: 2px 1px 6px #163628;
+	color: #DA2A2A;
+	transform: scale(1.05);
+}
+
+.div--banner-card{
+	background: rgba(255,255,255, .7);
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px #163628;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 20px 40px 20px;
+	width: 100%;
+}
+
+.div--banner-card img{
+	width: 50%;
+}
