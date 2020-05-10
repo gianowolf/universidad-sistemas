@@ -55,12 +55,17 @@ img{
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;
+	transition: .3s;
 	width: 100%;
 }
 
 .img--menu-logo{
 	margin-left: 20px;
 	width: 70px;
+}
+
+#img--logo{
+	transition: .3s;
 }
 
 .ul--menu-principal li{
@@ -138,4 +143,19 @@ img{
 
 .div--banner-card img{
 	width: 50%;
+}
+
+.section--news{
+	margin: 1rem 10%;
+	padding: 1rem 10%;
+	background-color: #EEE;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 50% 50%;
+}
+
+.section--news-inside{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 50% 50%;
 }
