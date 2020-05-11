@@ -301,3 +301,28 @@ GALLERY
 .gallery-column img{
 	padding: .8rem 0;
 }
+
+/*
+* Pre footer
+*/
+#pre-footer{
+	margin: 3rem 3rem;
+	padding: 8rem;
+	background-color: black;
+}
+#pre-footer h1{
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	color: white;
+	width: 100%;
+}
+#pre-footer h2{
+	font-size: 1.5rem;
+	padding-top: 2rem;
+	font-style: italic;
+	font-weight: 300;
+	text-align: right;
+	color: #777;
+}
