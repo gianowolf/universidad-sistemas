@@ -18,3 +18,4 @@ window.addEventListener('scroll',()=>{
 
 ScrollReveal().reveal('.scr-rev', { delay: 300 });
 ScrollReveal().reveal('#gallery-footer', { delay: 1500 });
+

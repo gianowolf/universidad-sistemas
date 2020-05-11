@@ -319,10 +319,16 @@ GALLERY
 	width: 100%;
 }
 #pre-footer h2{
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	padding-top: 2rem;
 	font-style: italic;
 	font-weight: 300;
 	text-align: right;
 	color: #777;
+}
+
+
+
+footer{
+	background-color: white;
 }
