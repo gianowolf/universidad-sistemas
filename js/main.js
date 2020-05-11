@@ -5,6 +5,7 @@ window.addEventListener('scroll',()=>{
     let posicion = section.getBoundingClientRect().top;
     let logo = document.querySelector("#img--logo");
 
+
     if(posicion < 0){
         navBar.style.background = "rgba(0,0,0,0.9)";
         logo.style.width = "55px";
@@ -14,3 +15,5 @@ window.addEventListener('scroll',()=>{
     }
 
 });
+
+ScrollReveal().reveal('.scr-rev', { delay: 300 });
