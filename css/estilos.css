@@ -27,6 +27,8 @@
     -webkit-tap-highlight-color: transparent;
 	font-family: 'Roboto' , sans-serif;
 }
+
+
 body{
     background-color: var(--bg1-color);
     overflow-x: hidden;
@@ -54,6 +56,41 @@ img{
 	width: 100%;
 }
 
+.form--buscador{
+	display: flex;
+	margin-left: 3em;
+}
+
+.div--buscador-icon img{
+	margin: 5px 0 0 10px;
+	position: absolute;
+}
+
+.img--icons-menu, .div--buscador-icon img{
+	width: 1em;
+    height: 1em;
+    font-size: 1.5em;
+}
+
+.div--buscador-input input{
+	position: relative;
+	background: rgba(255,255,255,0);
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	padding: 8px 8px 8px 40px;
+	width: 200px;
+}
+
+.div--buscador-input input:focus{
+	transition: .4s;
+	background: rgba(255,255,255,0.3);
+	outline: 0;
+	width: 400px;
+}
+
+
 .nav--menu-principal{
 	z-index: 999;
 	display: flex;
@@ -62,16 +99,21 @@ img{
 	position: fixed;
 	transition: .3s;
 	width: 100%;
-	font-weight: 400;
+	z-index: 99;
 }
 
 .img--menu-logo{
-	margin-left: 20px;
 	width: 70px;
 }
 
 #img--logo{
 	transition: .3s;
+}
+
+.ul--menu-principal{
+	float: right;
+	margin-right: 3em;
+
 }
 
 .ul--menu-principal li{
